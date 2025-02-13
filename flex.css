@@ -58,6 +58,7 @@ input{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 
 body{
@@ -70,4 +71,10 @@ body{
 
 #selected{
     background: #ff9548;
+}
+
+i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
